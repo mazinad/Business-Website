@@ -118,6 +118,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
    
 }
 .about .about-content .left {
@@ -137,6 +138,7 @@ section{
     font-weight: 600;
     margin-bottom: 10px;
     text-align: center;
+    color: #fff;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -163,6 +165,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-weight: 500;
+    color: #fff;
 }
 section .title::before{
     position: absolute;
@@ -176,7 +179,7 @@ section .title::before{
 }
 .section .title::after{
     position: absolute;
-    content: "who i am";
+    /* content: "who i am"; */
     padding:5px;
     bottom: -10px;
     left: 50%;
@@ -245,10 +248,12 @@ section .title::before{
 font-size: 25px;
 font-weight: 600;
 margin-bottom: 10px;
+color: #fff;
 }
 
-.skills .skills-content .left .p{
+.skills .skills-content .left p{
 text-align: justify;
+color: #fff;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -322,9 +327,11 @@ position: relative;
 }
 .contact .contact-content  .info .head{ 
     font-weight: 500;
+    color: #fff;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: greenyellow
+    
 }
 .contact .contact-content .left p{
 text-align: justify;
